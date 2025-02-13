@@ -1,15 +1,8 @@
-let listData = [
-    { name: 'Олег', surename: 'Олегович', lastname: 'Мостин', age: 21, hobby: 'Спорт' },
-    { name: 'Евгений', surename: 'Мартынович', lastname: 'МАГОМЕДОВ', age: 41, hobby: 'Физкультура' },
-    { name: 'Магомед', surename: 'Мухтарович', lastname: 'МАГОМЕДОВ', age: 23, hobby: 'Танцы' },
-    { name: 'Иван', surename: 'Иванович', lastname: 'Кириллов', age: 32, hobby: 'Борьба' },
-    { name: 'Кирилл', surename: 'Олегович', lastname: 'Кириллов', age: 18, hobby: 'Спорт' },
-];
+let listData = [];
 
 let sortColumnFlag = 'fio';
 
 let sortDirection = 1;
-
 
 const $app = document.getElementById('app'),
         $addForm = document.getElementById('add-form'),
