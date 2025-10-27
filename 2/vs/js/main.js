@@ -3,7 +3,7 @@ let listData = [];
 let sortColumnFlag = 'fio';
 
 let sortDirection = 1;
-
+ 
 const $app = document.getElementById('app'),
         $addForm = document.getElementById('add-form'),
         $nameInp = document.getElementById('add-form__name-inp'),
@@ -203,3 +203,4 @@ $fioFilterInp.addEventListener('input', function() {
 $hobbyFilterInp.addEventListener('input', function() {
     render(listData)
 })
+
